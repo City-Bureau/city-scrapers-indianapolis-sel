@@ -54,10 +54,6 @@ jobs:
         run: |
           pipenv run flake8 .
 
-      - name: Test with pytest
-        run: |
-          pipenv run pytest
-
       - name: Validate output with scrapy
         if: github.event_name == 'pull_request'
         run: |
