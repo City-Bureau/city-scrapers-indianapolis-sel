@@ -62,6 +62,8 @@ jobs:
         run: sudo apt purge chromium-browser
       - name: Install a new Chromium
         run: sudo apt install -y chromium-browser
+      - name: Install all necessary packages
+        run: pip install requests pandas webdriver-manager selenium
 
       - name: Run scrapers
         run: |
