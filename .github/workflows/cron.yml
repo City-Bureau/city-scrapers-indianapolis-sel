@@ -48,8 +48,6 @@ jobs:
         run: sudo apt purge chromium-browser
       - name: Install a new Chromium
         run: sudo apt install -y chromium-browser
-      - name: Install all necessary packages
-        run: pip install requests pandas webdriver-manager selenium
 
       - name: Cache Python dependencies
         uses: actions/cache@v1
@@ -61,7 +59,7 @@ jobs:
             pip-
 
       - name: Install dependencies
-        run: pipenv sync
+        run: pipenv sync && pipenv graph
         env:
           PIPENV_DEFAULT_PYTHON_VERSION: 3.9
 
