@@ -206,12 +206,12 @@
             "extras": [
                 "azure"
             ],
-            "git": "https://github.com/City-Bureau/city-scrapers-core.git",
             "hashes": [
                 "sha256:142d8a119d1e62e398a5a248c8c8bb5c3e0ed820f29f6bf03d0ae46b928e8270",
                 "sha256:6218a70c8d9eb01ed4c2cdafdf4fb52dea0292aeb09e24e798ff5fa7c53031bb"
             ],
-            "ref": "f4a8518b060527db767b3932eb834f6a082db595"
+            "index": "pypi",
+            "version": "==0.10.1"
         },
         "constantly": {
             "hashes": [
