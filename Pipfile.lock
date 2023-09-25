@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "1b46460d09e6e1fea8ebb1661b1881355e6f36375612925b33f70830f48a0ea5"
+            "sha256": "bfdcee12178f70d1e67e57bf0d031243d6098cde29924eb6488b393ad96b8ffa"
         },
         "pipfile-spec": 6,
         "requires": {},
@@ -708,7 +708,7 @@
             "version": "==2.11.0"
         },
         "scrapy-sentry": {
-            "git": "https://github.com/pjsier/scrapy-sentry.git",
+            "git": "https://github.com/City-Bureau/scrapy-sentry.git",
             "hashes": [
                 "sha256:4c78e0fb5a5940639f11ae2a1fb28d4ea1a41180d88289efc6d8e39e1e14227f"
             ],
