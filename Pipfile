@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 scrapy = "*"
-scrapy-sentry = "*"
+scrapy-sentry = {ref = "refactor/update-compatibility", git = "https://github.com/pjsier/scrapy-sentry.git"}
 city-scrapers-core = {extras = ["azure"], version = "*"}
 pypiwin32 = {version = "*", sys_platform = "== 'win32'"}
 scrapy-wayback-middleware = "*"
